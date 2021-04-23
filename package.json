@@ -1,0 +1,21 @@
+{
+    "name": "gabo-theme",
+    "displayName": "gaboTheme",
+    "description": "Customized VS Code developed by Gabo",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "gaboTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/gaboTheme-color-theme.json"
+            }
+        ]
+    }
+}
